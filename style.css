@@ -1,0 +1,118 @@
+/* body/header style */
+
+
+  body {
+    text-align: center;
+    object-position: center;
+    background-color: rgb(255, 255, 228);
+  }
+
+
+  h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+
+
+
+
+/* score style */
+
+
+  #score {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+
+  #scoreDescription {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+
+
+
+/* gameplayContainer style */
+
+
+  .gameplayContainer {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 525px;
+  }
+
+
+    .selectionHeader {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+
+    .selection {
+      width: 144px;
+      height: 128px;
+      border-radius: 10%;
+      border: 8px solid rgb(129, 45, 179);
+    }
+
+
+    #gameplayText {
+      display: flex;
+      margin-top: 60px;
+      margin-bottom: 0;
+      width: 175px;
+      height: 145px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      line-height: center;
+
+      font-size: 36px;
+      font-family: fantasy;
+      color: rgb(129, 45, 179);
+      text-transform: uppercase;
+    }
+
+
+
+
+/* button style */
+
+
+  .button {
+    display: none;
+    margin: 25px auto 10px auto;
+    background-image: linear-gradient(#9442ec, #6100c9);
+    border: 1px solid #4e00cc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+
+
+  #confirmButton:hover {
+    background-image: linear-gradient(#9e6af1, #7a2ecc);
+    border-color: #7530d0;
+  }
+
+
+
+
+/* user options style */
+
+
+  .option {
+    width: 135px;
+    height: 120px;
+    margin: 20px;
+    border-radius: 10%;
+    border: 8px solid rgb(129, 45, 179)
+  }

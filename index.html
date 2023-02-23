@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RPS Game!</title>
+
+    <link rel="icon" href="images/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+
+  <body>
+
+    <!--game score/round headers-->
+
+
+    <h1>Rock, Paper, Scissors Game!</h1>
+    
+
+    <h2>Score</h2>
+    
+      <h3 id="score">0 - 0 - 0</h3>
+
+      <p id="scoreDescription">(User) - (Draw) - (CPU)</p>
+
+
+    <h2>Round 
+
+      <span id="round" type="number">1</span>
+    
+    </h2>
+    
+
+    <!--user move selection, animated gameplay text, cpu move selection-->
+
+
+    <div class="gameplayContainer">
+
+      
+      <div>
+
+          <h3 class="selectionHeader">User</h3>
+
+          <img class="selection" id="userSelection" src="images/cover.png" alt="cover"></img>
+
+      </div> 
+      
+
+      <p id="gameplayText"></p>
+
+
+      <div>
+        
+          <h3 class="selectionHeader">CPU</h3>
+        
+          <img class="selection" id="cpuSelection" src="images/cover.png" alt="cover"></img>
+      
+      </div>
+
+
+    </div>
+
+
+    <!--game directions/buttons-->
+
+
+    <h2 id="directions">select your move!</h2>
+
+    <button class="button" id="confirmButton">confirm move?</button>
+
+    <button class="button" id="resetButton">play again?</button>
+
+
+    <!--user move options-->
+
+    
+    <img class="option" id="rock" src="images/rock.png" alt="rock">
+    
+    <img class="option" id="paper" src="images/paper.png" alt="paper">
+    
+    <img class="option" id="scissors" src="images/scissors.png" alt="scissors">
+
+
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
