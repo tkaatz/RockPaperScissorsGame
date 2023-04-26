@@ -4,7 +4,7 @@ A rock-paper-scissors game built with HTML, CSS, and JavaScript.
 
 The game can be accessed [here](https://tkaatz.github.io/RockPaperScissorsGame/).
 
-![screenshot of game](images/screenshot.png)
+![screenshot of game](images/readme_screenshots.jpg)
 
 # Summary
 This project is a implementation of the classic game Rock-Paper-Scissors, built with HTML, CSS, and JavaScript. The user can select one of the three options (rock, paper, or scissors) by clicking on the corresponding image, and then confirm their choice by clicking a "Confirm Move" button. The computer's choice is randomly generated, and the result (Victory!, Defeat, or Draw) is displayed along with the score. The user can play again by clicking a "Play Again?" button, which resets the game but keeps the score.
